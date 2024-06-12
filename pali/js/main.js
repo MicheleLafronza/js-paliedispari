@@ -12,9 +12,9 @@ button.addEventListener ("click",
         
         // if,else con la funzione per stampare il risultato
         if (checkPalindrome(parola) === true) {
-            risposta.innerHTML=("La parola è palindroma")
+            risposta.innerHTML=("La parola è palindroma");
         } else {
-            risposta.innerHTML=("La parola non è palindroma")
+            risposta.innerHTML=("La parola non è palindroma");
         }
         
     }
