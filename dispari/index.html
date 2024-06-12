@@ -9,11 +9,25 @@
 <body>
     
     <div class="container">
-        <h2>Immetti un numero e spingi gioca per avviare la partia</h2>
-        <input type="number"  id="numero-utente">
+        <h2>Immetti un numero, e scegli pari o dispari, dunque spingi gioca per avviare la partita!</h2>
+
+        <label for="pari-dispari">Pari o Dispari?</label> <br>
+
+        <select name="pari-dispari" id="pari-dispari">
+          <option value="pari">Pari</option>
+          <option value="dispari">dispari</option>
+        </select> <br>
+
+        <input type="number"  id="input-user">
+
         <button id="play">Gioca!!</button>
+
         <div id="numero-utente"></div>
+
         <div id="numero-pc"></div>
+
+        <div id="tot"></div>
+
         <div id="esito-partita"></div>
     </div>
     
